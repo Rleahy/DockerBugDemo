@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\roble\\source\\repos\\BeliefRefinery\\src\\BeliefRefinery.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\roble\\source\\repos\\BeliefRefinery\\src\\BeliefRefinery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\roble\\source\\repos\\BeliefRefinery\\src\\BeliefRefinery.csproj",
+        "projectName": "BeliefRefinery",
+        "projectPath": "C:\\Users\\roble\\source\\repos\\BeliefRefinery\\src\\BeliefRefinery.csproj",
+        "packagesPath": "C:\\Users\\roble\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roble\\source\\repos\\BeliefRefinery\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\roble\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "ArangoDB.Client": {
+              "target": "Package",
+              "version": "[0.7.60, )"
+            },
+            "HashLib": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[2.7.8.1, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            },
+            "NCDK": {
+              "target": "Package",
+              "version": "[1.5.3, )"
+            },
+            "TensorFlow.NET": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

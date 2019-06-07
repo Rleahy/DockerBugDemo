@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  beliefengine:
+    image: ${DOCKER_REGISTRY-}beliefengine
+    build:
+      context: .
+      dockerfile: BeliefEngine/Dockerfile
+    ports:
+      "9000:9000"
